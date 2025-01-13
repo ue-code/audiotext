@@ -107,12 +107,10 @@ Sorularınız ve önerileriniz için:
 - E-posta: uecodengineer@gmail.com
 ```
 
-----
-
-# audiotext
+## audiotext
 Metin-Ses Dönüştürme Uygulaması / Creating a Sound Model Using Python
 
-# Creating a Sound Model Using Python
+## Creating a Sound Model Using Python
 This project is a Python application that converts text from Word documents into audio files. It uses Facebook's Turkish language model (facebook/mms-tts-tur) to vocalize texts with a natural tone.
 
 ## Features
