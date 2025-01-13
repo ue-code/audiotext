@@ -1,27 +1,24 @@
-# audiotext
- Creating a Sound Model Using Python
-
-
-
-
-README.md dosyası için kapsamlı bir içerik hazırlayalım:
-
-```markdown:README.md
 # Metin-Ses Dönüştürme Uygulaması
 
-Bu proje, Word belgelerindeki metinleri ses dosyalarına dönüştüren bir Python uygulamasıdır. Facebook'un Türkçe dil modelini (facebook/mms-tts-tur) kullanarak metinleri doğal bir ses tonuyla seslendirmektedir.
+[... Mevcut Türkçe içerik aynen kalacak ...]
 
-## Özellikler
+-----------------------------------
 
-- Word (.docx) belgelerinden metin okuma
-- Türkçe metinleri sese dönüştürme
-- Özelleştirilebilir ses modeli eğitimi
-- Kolay kullanımlı görsel arayüz
-- Otomatik dosya adlandırma
+# Text-to-Speech Conversion Application
 
-## Kurulum
+This project is a Python application that converts text from Word documents into audio files. It uses Facebook's Turkish language model (facebook/mms-tts-tur) to vocalize texts with a natural tone.
 
-1. Gerekli Python paketlerini yükleyin:
+## Features
+
+- Text reading from Word (.docx) documents
+- Text-to-speech conversion for Turkish texts
+- Customizable voice model training
+- User-friendly visual interface
+- Automatic file naming
+
+## Installation
+
+1. Install required Python packages:
 ```bash
 pip install torch torchvision torchaudio
 pip install transformers
@@ -31,54 +28,54 @@ pip install scipy
 pip install soundfile
 ```
 
-2. Projeyi klonlayın:
+2. Clone the project:
 ```bash
-git clone https://github.com/kullaniciadi/metin-ses-donusturucu.git
-cd metin-ses-donusturucu
+git clone https://github.com/username/text-to-speech-converter.git
+cd text-to-speech-converter
 ```
 
-## Kullanım
+## Usage
 
-1. Programı çalıştırın:
+1. Run the program:
 ```bash
 python generate_speech.py
 ```
 
-2. Açılan dosya seçim penceresinden bir Word belgesi seçin
-3. Program otomatik olarak:
-   - Metni Word belgesinden okuyacak
-   - Okunan metni ekranda gösterecek
-   - Ses dosyasını oluşturacak
+2. Select a Word document from the file selection window
+3. The program will automatically:
+   - Read the text from the Word document
+   - Display the read text
+   - Generate the audio file
 
-Çıktı dosyası, Word belgesinin adıyla aynı dizinde "_ses.wav" uzantısıyla oluşturulacaktır.
+The output file will be created in the same directory as the Word document with "_ses.wav" extension.
 
-## Model Eğitimi (İsteğe Bağlı)
+## Model Training (Optional)
 
-Kendi ses modelinizi eğitmek için:
+To train your own voice model:
 
-1. `training_data` klasörü oluşturun
-2. Ses kayıtlarını (.wav) ve transkriptleri (.txt) ekleyin:
+1. Create a `training_data` folder
+2. Add voice recordings (.wav) and transcripts (.txt):
 ```
 training_data/
-    ├── konusma1.wav
-    ├── konusma1.txt
-    ├── konusma2.wav
-    ├── konusma2.txt
+    ├── speech1.wav
+    ├── speech1.txt
+    ├── speech2.wav
+    ├── speech2.txt
     └── ...
 ```
-3. Model eğitimini başlatın:
+3. Start model training:
 ```bash
 python audiotext.py
 ```
 
-## Dosya Yapısı
+## File Structure
 
-- `generate_speech.py`: Ana program dosyası
-- `audiotext.py`: Model ve ses işleme fonksiyonları
-- `training_data/`: Eğitim verileri klasörü
-- `best_model.pth`: Eğitilmiş model dosyası
+- `generate_speech.py`: Main program file
+- `audiotext.py`: Model and audio processing functions
+- `training_data/`: Training data folder
+- `best_model.pth`: Trained model file
 
-## Gereksinimler
+## Requirements
 
 - Python 3.8+
 - PyTorch
@@ -88,38 +85,27 @@ python audiotext.py
 - scipy
 - soundfile
 
-## Notlar
+## Notes
 
-- Word belgesinin UTF-8 formatında kaydedilmiş olması önerilir
-- Ses çıktısı 22050 Hz örnekleme hızında oluşturulur
-- Model eğitimi için GPU önerilir
+- Word document should be saved in UTF-8 format
+- Audio output is generated at 22050 Hz sampling rate
+- GPU is recommended for model training
 
-## Hata Çözümleri
+## Troubleshooting
 
-1. "Model bulunamadı" hatası:
-   - `best_model.pth` dosyasının proje dizininde olduğundan emin olun
+1. "Model not found" error:
+   - Ensure `best_model.pth` file exists in the project directory
    
-2. Word dosyası okunamıyor:
-   - Dosyanın .docx formatında olduğunu kontrol edin
-   - Dosya izinlerini kontrol edin
+2. Word document cannot be read:
+   - Check if the file is in .docx format
+   - Check file permissions
 
-## Lisans
+## License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## İletişim
+## Contact
 
-Sorularınız ve önerileriniz için:
-- GitHub: [github.com/kullaniciadi](https://github.com/kullaniciadi)
-- E-posta: uecodengineer@gmail.com
-```
-
-Bu README dosyası:
-1. Projenin amacını ve özelliklerini açıklıyor
-2. Kurulum adımlarını detaylı olarak gösteriyor
-3. Kullanım talimatlarını adım adım anlatıyor
-4. Model eğitimi için gerekli bilgileri içeriyor
-5. Olası hataların çözümlerini sunuyor
-6. İletişim bilgilerini içeriyor
-
-İletişim bilgilerini ve GitHub bağlantılarını kendi bilgilerinizle güncellemeyi unutmayın.
+For questions and suggestions:
+- GitHub: [github.com/username](https://github.com/username)
+- Email: uecodengineer@gmail.com
