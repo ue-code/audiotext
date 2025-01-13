@@ -111,7 +111,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosy
 
 Sorularınız ve önerileriniz için:
 - GitHub: [github.com/kullaniciadi](https://github.com/kullaniciadi)
-- E-posta: uecodengineer@email.com
+- E-posta: uecodengineer@gmail.com
 ```
 
 Bu README dosyası:
