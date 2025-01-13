@@ -105,7 +105,8 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosy
 
 Sorularınız ve önerileriniz için:
 - E-posta: uecodengineer@gmail.com
-```
+
+-----
 
 ## audiotext
 
