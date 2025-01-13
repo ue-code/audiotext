@@ -1,5 +1,5 @@
 # audiotext
- Creating a Sound Model Using Python
+Metin-Ses Dönüştürme Uygulaması / Creating a Sound Model Using Python
 
 ```markdown:README.md
 # Metin-Ses Dönüştürme Uygulaması
@@ -109,6 +109,8 @@ Sorularınız ve önerileriniz için:
 ```
 
 -----------------------------------
+
+Creating a Sound Model Using Python
 
 # Text-to-Speech Conversion Application
 
