@@ -109,9 +109,8 @@ Sorularınız ve önerileriniz için:
 
 ----
 
-Creating a Sound Model Using Python
-
 # Text-to-Speech Conversion Application
+Creating a Sound Model Using Python
 
 This project is a Python application that converts text from Word documents into audio files. It uses Facebook's Turkish language model (facebook/mms-tts-tur) to vocalize texts with a natural tone.
 
