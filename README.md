@@ -1,7 +1,6 @@
 # audiotext
 Metin-Ses Dönüştürme Uygulaması / Creating a Sound Model Using Python
 
-```markdown:README.md
 # Metin-Ses Dönüştürme Uygulaması
 
 Bu proje, Word belgelerindeki metinleri ses dosyalarına dönüştüren bir Python uygulamasıdır. Facebook'un Türkçe dil modelini (facebook/mms-tts-tur) kullanarak metinleri doğal bir ses tonuyla seslendirmektedir.
