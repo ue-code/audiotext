@@ -107,7 +107,7 @@ Sorularınız ve önerileriniz için:
 - E-posta: uecodengineer@gmail.com
 ```
 
------------------------------------
+----
 
 Creating a Sound Model Using Python
 
